@@ -1,0 +1,92 @@
+p {
+    width: 85%;
+}
+
+p.subtitle {
+    font-size: 18px;
+}
+
+p.description {
+    font-size: 16px;
+}
+
+.input-group {
+    width: 60%
+}
+
+/* Axes */
+
+.axis-label {
+    fill: #888;
+    text-anchor: middle;
+}
+
+.axis-label-small {
+    fill: #888;
+    text-anchor: middle;
+    font-size: 11px;
+}
+
+.axis text {
+    fill: #888;
+}
+
+.axis path, line {
+    stroke: #888888;
+}
+
+.colorLegend {
+    font-size: 12px;
+    fill: #888;
+}
+
+.detailsBarLabel {
+    font-size: 11px;
+    fill: #888;
+}
+
+/* Slider */
+
+.slider-handle.round {
+    background-image: linear-gradient(to bottom,#979797 0,#707070 100%);
+}
+
+.tooltip {
+    opacity: 1;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #999;
+    margin-left: -25px;
+}
+
+/* Filters */
+
+.filter {
+    cursor: pointer;
+}
+
+.filter text {
+    font-size: 11px;
+    font-weight: normal;
+    fill: #333;
+}
+
+.filter rect{
+    fill: #ddd;
+}
+
+.filter.selected text {
+    fill: #000;
+    font-weight: bold;
+}
+
+.filter.selected rect {
+    fill: #F8CF46;
+}
+
+/* Country Details */
+
+.countryDetails text {
+    text-anchor: middle;
+}
